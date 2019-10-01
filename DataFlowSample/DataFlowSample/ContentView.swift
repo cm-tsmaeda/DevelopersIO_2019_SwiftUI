@@ -12,7 +12,15 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                Text("hello 1")
+                
+                NavigationLink(destination: StateSampleView()) {
+                    Text("State")
+                }
+                
+                NavigationLink(destination: BindingSampleView()) {
+                    Text("Binding")
+                }
+                
                 Text("hello 2")
                 Text("hello 3")
             }.navigationBarTitle(
