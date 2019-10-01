@@ -21,6 +21,10 @@ struct ContentView: View {
                     Text("Binding")
                 }
                 
+                NavigationLink(destination: ObservedObjectSampleView(company: Company())) {
+                    Text("ObservedObject")
+                }
+                
                 Text("hello 2")
                 Text("hello 3")
             }.navigationBarTitle(
