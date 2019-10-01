@@ -16,6 +16,7 @@
 		D59056EC23433FB8001BC550 /* StateSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59056EB23433FB8001BC550 /* StateSampleView.swift */; };
 		D59056EE234340D6001BC550 /* BindingSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59056ED234340D6001BC550 /* BindingSampleView.swift */; };
 		D59056F22343435B001BC550 /* ObservedObjectSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59056F12343435B001BC550 /* ObservedObjectSampleView.swift */; };
+		D59056F423435269001BC550 /* EnvironmentObjectSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59056F323435269001BC550 /* EnvironmentObjectSampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D59056EB23433FB8001BC550 /* StateSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateSampleView.swift; sourceTree = "<group>"; };
 		D59056ED234340D6001BC550 /* BindingSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingSampleView.swift; sourceTree = "<group>"; };
 		D59056F12343435B001BC550 /* ObservedObjectSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectSampleView.swift; sourceTree = "<group>"; };
+		D59056F323435269001BC550 /* EnvironmentObjectSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectSampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				D59056EB23433FB8001BC550 /* StateSampleView.swift */,
 				D59056ED234340D6001BC550 /* BindingSampleView.swift */,
 				D59056F12343435B001BC550 /* ObservedObjectSampleView.swift */,
+				D59056F323435269001BC550 /* EnvironmentObjectSampleView.swift */,
 				D59056DD23433EB5001BC550 /* Assets.xcassets */,
 				D59056E223433EB5001BC550 /* LaunchScreen.storyboard */,
 				D59056E523433EB5001BC550 /* Info.plist */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D59056D823433EB3001BC550 /* AppDelegate.swift in Sources */,
+				D59056F423435269001BC550 /* EnvironmentObjectSampleView.swift in Sources */,
 				D59056DA23433EB3001BC550 /* SceneDelegate.swift in Sources */,
 				D59056EE234340D6001BC550 /* BindingSampleView.swift in Sources */,
 				D59056F22343435B001BC550 /* ObservedObjectSampleView.swift in Sources */,

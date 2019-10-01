@@ -21,12 +21,19 @@ struct ContentView: View {
                     Text("Binding")
                 }
                 
-                NavigationLink(destination: ObservedObjectSampleView(company: Company())) {
+                NavigationLink(
+                    destination: ObservedObjectSampleView(company: Company())
+                ) {
                     Text("ObservedObject")
                 }
                 
-                Text("hello 2")
-                Text("hello 3")
+                NavigationLink(
+                    destination: EnvironmentObjectSampleView()
+                                    .environmentObject(UserSettings())
+                ) {
+                    Text("EnvironmentObject")
+                }
+                
             }.navigationBarTitle(
                 Text("Data Flow"),
                 displayMode: .large
