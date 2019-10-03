@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TDD-xF-Ifo">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SwiftUI InUI Kit Partially View Controller-->
+        <scene sceneID="GZK-T1-aW8">
+            <objects>
+                <viewController id="TDD-xF-Ifo" customClass="SwiftUIInUIKitPartiallyViewController" customModule="UIKit_SwiftUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YoW-IN-Nsv" userLabel="OuterView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A3I-du-iti">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIKit View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mt4-on-tGq">
+                                        <rect key="frame" x="121" y="89.5" width="78.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="9t3-CC-8XT"/>
+                                    <constraint firstItem="mt4-on-tGq" firstAttribute="centerX" secondItem="A3I-du-iti" secondAttribute="centerX" id="MCM-yh-y73"/>
+                                    <constraint firstItem="mt4-on-tGq" firstAttribute="centerY" secondItem="A3I-du-iti" secondAttribute="centerY" id="g2c-L8-sMZ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dm1-4u-Ggt">
+                                <rect key="frame" x="0.0" y="200" width="320" height="368"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="dm1-4u-Ggt" secondAttribute="bottom" id="8jZ-BN-MzE"/>
+                            <constraint firstItem="dm1-4u-Ggt" firstAttribute="top" secondItem="A3I-du-iti" secondAttribute="bottom" id="GTY-j8-Gu7"/>
+                            <constraint firstItem="dm1-4u-Ggt" firstAttribute="leading" secondItem="KSA-cw-Bdd" secondAttribute="leading" id="IyP-zh-hmQ"/>
+                            <constraint firstItem="A3I-du-iti" firstAttribute="top" secondItem="KSA-cw-Bdd" secondAttribute="top" id="J96-mI-jiU"/>
+                            <constraint firstItem="A3I-du-iti" firstAttribute="leading" secondItem="KSA-cw-Bdd" secondAttribute="leading" id="QGI-Bh-9Ls"/>
+                            <constraint firstItem="KSA-cw-Bdd" firstAttribute="trailing" secondItem="dm1-4u-Ggt" secondAttribute="trailing" id="pyO-XL-4wV"/>
+                            <constraint firstItem="KSA-cw-Bdd" firstAttribute="trailing" secondItem="A3I-du-iti" secondAttribute="trailing" id="w6d-Pj-zMU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KSA-cw-Bdd"/>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="dm1-4u-Ggt" id="Rc1-f9-sKW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vAo-Js-MlD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="148"/>
+        </scene>
+    </scenes>
+</document>

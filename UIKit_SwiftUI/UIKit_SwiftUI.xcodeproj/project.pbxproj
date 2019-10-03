@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5071FE92344AA52008B04D2 /* SwiftUISampleView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5071FE82344AA52008B04D2 /* SwiftUISampleView1.swift */; };
+		D5071FEB2344AC05008B04D2 /* SwiftUIInUIKitPartiallyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5071FEA2344AC05008B04D2 /* SwiftUIInUIKitPartiallyViewController.storyboard */; };
+		D5071FED2344AC0F008B04D2 /* SwiftUIInUIKitPartiallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5071FEC2344AC0F008B04D2 /* SwiftUIInUIKitPartiallyViewController.swift */; };
+		D5071FEF2344B28F008B04D2 /* SwiftUISampleView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5071FEE2344B28F008B04D2 /* SwiftUISampleView2.swift */; };
+		D5071FF12344B324008B04D2 /* CustomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5071FF02344B324008B04D2 /* CustomTextFieldView.swift */; };
 		D59057022343581E001BC550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59057012343581E001BC550 /* AppDelegate.swift */; };
 		D59057042343581E001BC550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59057032343581E001BC550 /* SceneDelegate.swift */; };
 		D59057062343581E001BC550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59057052343581E001BC550 /* ContentView.swift */; };
 		D59057082343581F001BC550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59057072343581F001BC550 /* Assets.xcassets */; };
 		D590570B2343581F001BC550 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D590570A2343581F001BC550 /* Preview Assets.xcassets */; };
 		D590570E2343581F001BC550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D590570C2343581F001BC550 /* LaunchScreen.storyboard */; };
+		D59057162343586D001BC550 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59057152343586D001BC550 /* MainViewController.swift */; };
+		D590571823435875001BC550 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D590571723435875001BC550 /* MainViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D5071FE82344AA52008B04D2 /* SwiftUISampleView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleView1.swift; sourceTree = "<group>"; };
+		D5071FEA2344AC05008B04D2 /* SwiftUIInUIKitPartiallyViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SwiftUIInUIKitPartiallyViewController.storyboard; sourceTree = "<group>"; };
+		D5071FEC2344AC0F008B04D2 /* SwiftUIInUIKitPartiallyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIInUIKitPartiallyViewController.swift; sourceTree = "<group>"; };
+		D5071FEE2344B28F008B04D2 /* SwiftUISampleView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleView2.swift; sourceTree = "<group>"; };
+		D5071FF02344B324008B04D2 /* CustomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldView.swift; sourceTree = "<group>"; };
 		D59056FE2343581E001BC550 /* UIKit_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKit_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59057012343581E001BC550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D59057032343581E001BC550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,8 @@
 		D590570A2343581F001BC550 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D590570D2343581F001BC550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D590570F2343581F001BC550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59057152343586D001BC550 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D590571723435875001BC550 /* MainViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,13 @@
 				D59057012343581E001BC550 /* AppDelegate.swift */,
 				D59057032343581E001BC550 /* SceneDelegate.swift */,
 				D59057052343581E001BC550 /* ContentView.swift */,
+				D590571723435875001BC550 /* MainViewController.storyboard */,
+				D59057152343586D001BC550 /* MainViewController.swift */,
+				D5071FE82344AA52008B04D2 /* SwiftUISampleView1.swift */,
+				D5071FEA2344AC05008B04D2 /* SwiftUIInUIKitPartiallyViewController.storyboard */,
+				D5071FEC2344AC0F008B04D2 /* SwiftUIInUIKitPartiallyViewController.swift */,
+				D5071FEE2344B28F008B04D2 /* SwiftUISampleView2.swift */,
+				D5071FF02344B324008B04D2 /* CustomTextFieldView.swift */,
 				D59057072343581F001BC550 /* Assets.xcassets */,
 				D590570C2343581F001BC550 /* LaunchScreen.storyboard */,
 				D590570F2343581F001BC550 /* Info.plist */,
@@ -133,7 +154,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D590571823435875001BC550 /* MainViewController.storyboard in Resources */,
 				D590570E2343581F001BC550 /* LaunchScreen.storyboard in Resources */,
+				D5071FEB2344AC05008B04D2 /* SwiftUIInUIKitPartiallyViewController.storyboard in Resources */,
 				D590570B2343581F001BC550 /* Preview Assets.xcassets in Resources */,
 				D59057082343581F001BC550 /* Assets.xcassets in Resources */,
 			);
@@ -146,9 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5071FEF2344B28F008B04D2 /* SwiftUISampleView2.swift in Sources */,
 				D59057022343581E001BC550 /* AppDelegate.swift in Sources */,
+				D5071FE92344AA52008B04D2 /* SwiftUISampleView1.swift in Sources */,
+				D5071FF12344B324008B04D2 /* CustomTextFieldView.swift in Sources */,
 				D59057042343581E001BC550 /* SceneDelegate.swift in Sources */,
+				D5071FED2344AC0F008B04D2 /* SwiftUIInUIKitPartiallyViewController.swift in Sources */,
 				D59057062343581E001BC550 /* ContentView.swift in Sources */,
+				D59057162343586D001BC550 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
